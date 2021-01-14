@@ -3,7 +3,7 @@ import React, { Children, Component } from 'react';
 export class Profil extends Component {
     
     render() {
-        // const variableDescription = this.props.description ? (`Description : ${this.props.description}`): (`Pas de description`);
+        const variableDescription = this.props.description ? (`Description : ${this.props.description}`): (`Pas de description`);
         return (
             <div>
                 <h1 className="prenom">Prénom : {this.props.prenom} </h1>
